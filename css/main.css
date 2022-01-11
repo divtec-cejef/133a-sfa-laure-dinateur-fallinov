@@ -105,3 +105,27 @@ body {
     line-height: 1.4;
 }
 
+h1,
+h2,
+h3 {
+    font-family: "Changa One", cursive;
+    font-weight: 400;
+}
+
+/*
+Tailles des titres de niveau 1 `2rem`
+Marge extérieure en bas de `1em`
+*/
+h1 {
+    font-size: 2rem; /* 2 * 16px */
+    margin-bottom: 1em ;
+}
+
+
+/*
+Tailles des titres de niveau 2 `1.5rem`
+Hauteur de ligne des paragraphes `1.5`
+*/
+
+
+/* Les liens du site sont rouges `#e71d36` et ne sont pas soulignés */
