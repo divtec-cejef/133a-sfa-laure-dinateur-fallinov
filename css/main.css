@@ -121,11 +121,17 @@ h1 {
     margin-bottom: 1em ;
 }
 
-
 /*
 Tailles des titres de niveau 2 `1.5rem`
 Hauteur de ligne des paragraphes `1.5`
 */
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
 
 
 /* Les liens du site sont rouges `#e71d36` et ne sont pas soulignés */
+a {
+    color: #e71d36;
+}
