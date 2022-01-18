@@ -107,31 +107,60 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+header div.nom {
     font-family: "Changa One", cursive;
     font-weight: 400;
 }
 
-/*
-Tailles des titres de niveau 1 `2rem`
-Marge extérieure en bas de `1em`
-*/
 h1 {
     font-size: 2rem; /* 2 * 16px */
     margin-bottom: 1em ;
 }
 
-/*
-Tailles des titres de niveau 2 `1.5rem`
-Hauteur de ligne des paragraphes `1.5`
-*/
 h2 {
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
-
-/* Les liens du site sont rouges `#e71d36` et ne sont pas soulignés */
 a {
     color: #e71d36;
+    text-decoration: none;
+}
+
+
+/*****************************
+********** ENTÊTE ***********
+*****************************/
+
+header {
+    background-color: #011627;
+    text-align: center;
+    padding: 5px 0 0 0;
+    margin-bottom: 30px;
+}
+
+header .nom {
+    color: #2EC4B6;
+    font-size: 1.75rem;
+    margin: 1rem 0;
+    line-height: 0.8;
+}
+
+header .metier {
+    margin: 0 0 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+header nav ul li {
+    display: inline-block ;
+}
+
+header nav ul li:first-child {
+    display: none ;
 }
