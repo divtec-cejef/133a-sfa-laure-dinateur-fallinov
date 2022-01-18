@@ -87,7 +87,7 @@
 }
 
 /***************************
- ********* GENRAL **********
+ ********* GENERAL **********
  **************************/
 
 * {
@@ -111,17 +111,21 @@ h3 {
     font-weight: 400;
 }
 
-/* Tailles des titres de niveau 1 2rem
-   Marge extérieure en bas de 1em */
 h1 {
     font-size: 2rem;
     margin-bottom: 2em;
 }
 
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: .75em;
+}
 
-/* Tailles des titres de niveau 2 1.5rem
-   Marge extérieure en bas de .75em */
+p {
+    line-height: 1.5;
+}
 
-
-/* Hauteur de ligne des paragraphes 1.5
-   Les liens du site sont rouges #e71d36 et ne sont pas soulignés */
+a {
+    color: red;
+    text-decoration: none;
+}
