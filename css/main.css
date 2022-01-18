@@ -130,6 +130,12 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
 /***************************
  ********* HEADER **********
  **************************/
@@ -163,7 +169,7 @@ header nav ul li:first-child {
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-block;
     padding: 0 15px;
 }
 
@@ -182,6 +188,9 @@ header nav ul li a:hover {
  ********* MAIN **********
  **************************/
 
+main {
+    margin: 0 5%;
+}
 
 /***************************
  ********* FOOTER **********
