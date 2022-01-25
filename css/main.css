@@ -223,3 +223,21 @@ footer nav ul li a img {
 footer nav ul li a img:hover {
     filter: grayscale(0);
 }
+
+/*****************************
+****** PAGE INFORMATIONS *****
+*****************************/
+.page-info img.laure {
+    border-radius: 50%;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    max-width: 150px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-info h1 {
+    text-align: center;
+}
