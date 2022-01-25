@@ -238,3 +238,22 @@ footer nav ul li a img:hover {
 .page-info h1 {
     text-align: center;
 }
+
+/***************************
+ ******* PAGE CONTACT ******
+ **************************/
+
+.page-contact ul.contact {
+    list-style: none;
+    padding: 0;
+}
+
+.page-contact ul.contact li {
+    margin-bottom: .5em;
+    padding-left: 40px;
+
+    background-image: url("../img/phone.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 15px 2px;
+}
