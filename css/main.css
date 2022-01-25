@@ -129,6 +129,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
 
 /*****************************
 ********** ENTÊTE ***********
@@ -176,4 +181,45 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: #2EC4B6;
+}
+
+/*****************************
+************ MAIN ************
+*****************************/
+
+main {
+    margin: 0 5%;
+}
+
+/*****************************
+*********** FOOTER ***********
+*****************************/
+
+footer {
+    text-align: center;
+    padding: 50px 0 2rem;
+}
+
+footer nav {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer nav ul li a img {
+    width: 50px;
+    filter: grayscale(1);
+    transition: filter 500ms;
+}
+
+footer nav ul li a img:hover {
+    filter: grayscale(0);
 }
