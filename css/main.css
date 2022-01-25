@@ -241,3 +241,33 @@ footer nav ul li a img:hover {
 .page-info h1 {
     text-align: center;
 }
+
+/*****************************
+********* PAGE CONTACT *******
+*****************************/
+
+.page-contact ul.contact {
+    list-style: none;
+    padding: 0;
+}
+
+.page-contact ul.contact li {
+    padding-left: 30px;
+    background-image: url("../img/phone.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    margin-bottom: .5em;
+}
+
+.page-contact ul.contact .mail {
+    background-image: url("../img/mail.png");
+}
+
+.page-contact ul.contact .twitter {
+    background-image: url("../img/twitter.png");
+}
+
+.page-contact ul.contact .facebook {
+    background-image: url("../img/facebook.png");
+}
