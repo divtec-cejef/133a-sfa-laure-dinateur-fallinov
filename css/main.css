@@ -114,6 +114,7 @@ h3 {
 h1 {
     font-size: 2rem;
     margin-bottom: 2em;
+    line-height: .9;
 }
 
 h2 {
@@ -226,10 +227,12 @@ footer nav ul li a img:hover {
  **************************/
 
 .page-info .laure {
-    border-radius: 50%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    max-width: 200px;
+    border-radius: 20px 50% 50% 20px;
+    max-width: 150px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .page-info h1 {
