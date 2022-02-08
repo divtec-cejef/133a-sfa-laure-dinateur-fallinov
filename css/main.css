@@ -224,6 +224,45 @@ footer nav ul li a img:hover {
     filter: grayscale(0);
 }
 
+/***********************
+****** PAGE INDEX ******
+************************/
+
+.page-index .realisations {
+    /* FLEXBOX : https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex; /* Indique que l'Ã©lÃ©ment est un container Flexbox */
+    flex-direction: row; /* Les Ã©lÃ©ments s'affiche sur la mÃªme ligne */
+    flex-wrap: wrap; /* Les Ã©lÃ©ments peuvent s'afficher sur la ligne suivante si pas assez de place */
+    justify-content: space-between; /* L'espace libre dans la ligne est redistribuÃ© entre les Ã©lÃ©ments */
+    align-items: flex-start; /* Alignement vertical sur le haut des Ã©lÃ©ments */
+
+    list-style-type: none; /* suppression des puces */
+    margin: 0;
+    padding: 0;
+}
+
+.page-index .realisations li {
+    flex-basis: 50%; /* Taille de base pour les Ã©lÃ©ments du container flex */
+    flex-grow: 2;
+    margin: 0;
+    padding: 1rem 2.5%;
+}
+
+.page-index .realisations li a {
+    color: #011627;
+}
+
+.page-index .realisations figure {
+    margin: 0;
+    background-color: #e7e9eb;
+}
+
+.page-index .realisations figcaption {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
 /*****************************
 ****** PAGE INFORMATIONS *****
 *****************************/
