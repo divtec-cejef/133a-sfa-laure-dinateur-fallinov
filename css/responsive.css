@@ -1,21 +1,53 @@
 /* pour les écrans >= 480px */
 @media only screen and (min-width: 480px) {
-    body {
-        background-color: red;
+    .page-index .realisations li {
+        flex-basis: calc(100% / 3);
+        flex-grow: 3;
     }
 } /* min-width: 480px */
 
-
 /* pour les écrans >= 660px */
 @media only screen and (min-width: 660px) {
-    body {
-        background-color: blue;
+    header {
+        border-bottom: 5px solid #2EC4B6;
     }
+
+   .logo {
+       display: inline-block;
+       vertical-align: middle;
+       width: 42%;
+       margin-left: 5%;
+       text-align: left;
+       margin-bottom: 20px;
+    }
+
+   header nav {
+       display: inline-block;
+       width: 47%;
+       margin-right: 5%;
+       text-align: right;
+       font-size: 1.125rem;
+   }
+
+   header .logo .nom {
+       font-size: 2.5rem;
+   }
+
+    header .logo .metier {
+        font-size: 1.5rem;
+    }
+
 } /* min-width: 660px */
 
 /* pour les écrans >= 910px */
 @media only screen and (min-width: 910px) {
-    body {
-        background-color: greenyellow;
+   main,
+   footer {
+       max-width: calc(910px - 5%);
+       margin: 0 auto;
+   }
+
+    header nav ul li:first-child {
+        display: inline ;
     }
 } /* min-width: 910px */
