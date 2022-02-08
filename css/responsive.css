@@ -4,6 +4,11 @@
         flex-basis: calc(100% / 3);
         flex-grow: 3;
     }
+
+    .page-info img.laure {
+        float: left;
+        margin: 0 5% 20px 0;
+    }
 } /* min-width: 480px */
 
 /* pour les écrans >= 660px */
